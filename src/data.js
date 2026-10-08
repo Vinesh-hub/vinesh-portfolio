@@ -1,5 +1,5 @@
 export const PROFILE = {
-  name: 'Vinesh',
+  name: 'VINESH VADIJARLA',
   roles: [
     'Generative AI Engineer',
     'RAG Systems Builder',

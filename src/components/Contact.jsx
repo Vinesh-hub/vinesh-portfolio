@@ -50,13 +50,7 @@ export default function Contact() {
               Say hello ✦
             </a>
           </div>
-          <div className="mt-8 flex flex-wrap gap-2.5 text-xs text-fog">
-            {['GSAP ScrollTrigger', 'Three.js / R3F', 'Vite + React', 'Tailwind CSS', 'Lenis smooth scroll'].map((t) => (
-              <span key={t} className="rounded-full border border-white/10 bg-white/[0.03] px-3 py-1.5">
-                {t}
-              </span>
-            ))}
-          </div>
+  
         </div>
         <div className="mt-8 flex flex-wrap items-center justify-between gap-4 text-sm text-fog">
           <p>© {new Date().getFullYear()} Vinesh. Crafted with Python, curiosity, and clean APIs.</p>

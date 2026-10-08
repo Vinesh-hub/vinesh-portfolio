@@ -9,9 +9,6 @@ export default function Journey() {
           <h2 data-sweep-title className="font-display text-[clamp(2rem,3.4vw,3rem)] font-bold tracking-tight">
             Watch my path <span className="grad-text">unfold as you scroll.</span>
           </h2>
-          <p className="mx-auto mt-4 max-w-2xl text-fog">
-            Every card pins, tilts and hands off to the next — a scroll-scrubbed timeline powered by GSAP ScrollTrigger.
-          </p>
         </div>
 
         <div id="journey-stack" className="relative mx-auto max-w-3xl" style={{ perspective: '1400px' }}>

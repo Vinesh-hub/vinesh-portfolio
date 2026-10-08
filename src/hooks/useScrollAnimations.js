@@ -61,7 +61,7 @@ export function useScrollAnimations(motionOK, started) {
       });
       heroTl
         .to('[data-hero-copy]', { yPercent: -18, opacity: 0, ease: 'none' }, 0)
-        .to('[data-hero-card]', { yPercent: 12, rotateY: -14, rotateX: 6, opacity: 0.1, ease: 'none' }, 0)
+        .to('[data-hero-card]', { yPercent: 12, rotateY: -14, rotateX: 6, ease: 'none' }, 0)
         .to('[data-hero-scroll]', { opacity: 0, ease: 'none' }, 0);
 
       // Giant section titles sweep in ---------------------------------------
@@ -118,11 +118,9 @@ export function useScrollAnimations(motionOK, started) {
       // Journey: scrubbed card stack ------------------------------------------
       const cards = gsap.utils.toArray('[data-journey-card]');
       cards.forEach((card, i) => {
-        if (i === cards.length - 1) return;
         gsap.to(card, {
           scale: 0.88,
           rotateX: 8,
-          opacity: 0.35,
           transformOrigin: 'center top',
           ease: 'none',
           scrollTrigger: {
